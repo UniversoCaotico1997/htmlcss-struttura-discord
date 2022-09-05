@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.conteiner{
+    max-width: 700px;
+    margin: auto;
+    width: 80%;
+    background-color: blueviolet;
+}
+header{
+    background-color:blue;
+}
+
+
+.row{
+    height: 30px;
+
+}
+.col_1{
+    width: calc((100% / 12)* 1);
+}
+
+.col_2{
+    width: calc((100% / 12)* 2);
+}
+
+.col_3{
+    width: calc((100% / 12)* 3);
+}
+
