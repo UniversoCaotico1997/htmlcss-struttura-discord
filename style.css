@@ -7,12 +7,13 @@
     max-width: 700px;
     margin: auto;
     width: 80%;
-    padding-top: 10px;
+    padding-top:  10px; 
 }
+
 
 .row{
     display: flex;
-}
+}   
 
 header{
     background-color: aqua;
@@ -31,11 +32,14 @@ header{
     width: calc((100% / 12)* 2);
     
 }
-.col_4{
-    width: calc((100% / 12)* 5);
-}
-.col_5{
+.colo_4{
     width: calc((100% / 12)* 7);
+    height: 150px;
+    background-color: aqua;
+}
+.colo_5{
+    width: calc((100% / 12)* 5);
+    background-color: brown;
 }
 
 
@@ -44,31 +48,38 @@ header{
 [class^="col_"]{
     background-color:orange;
 }
-/* sfondo inziale */
- .painting{
+#brown{
     background-color: brown;
+}
+
+/* suddivisione */
+
+.sfondo{
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-   
 .box{
     width: 400px;
     height: 150px;
     background-color: burlywood; 
 }
 
-/* suddivisione */
-
-.sfondo{
-    background-color:black;
-    height: 200px;
+#customer{
+    background-color: grey;
 }
+ 
 
-.sfondo > .row{
+.painting{
+    background-color: brown;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.square{
+    width: 400px;
+    height: 300px;
+    background-color:green; 
+}
