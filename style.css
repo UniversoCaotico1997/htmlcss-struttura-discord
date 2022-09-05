@@ -31,9 +31,44 @@ header{
     width: calc((100% / 12)* 2);
     
 }
+.col_4{
+    width: calc((100% / 12)* 5);
+}
+.col_5{
+    width: calc((100% / 12)* 7);
+}
+
 
 /* debug */
 
 [class^="col_"]{
     background-color:orange;
 }
+/* sfondo inziale */
+ .painting{
+    background-color: brown;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+.box{
+    width: 400px;
+    height: 150px;
+    background-color: burlywood; 
+}
+
+/* suddivisione */
+
+.sfondo{
+    background-color:black;
+    height: 200px;
+}
+
+.sfondo > .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
